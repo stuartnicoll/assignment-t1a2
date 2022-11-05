@@ -1,0 +1,6 @@
+Index screen 		R=221 G=186 B=71 	Black		Hex	#DDBA47
+Bio, code and audio	R=25 G=95 B=143		White			#195F8F	
+Contact			R=65 G=155 B=178	Black			#419BB2
+Blog list page 		R=241 G=156 B=47	Black			#F19C2F
+Blog content page	R=89 G=150 B=205	White			#5996CD
+Credits			R=34 G=121 B=136	White 			#227988
