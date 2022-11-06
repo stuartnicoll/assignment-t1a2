@@ -5,7 +5,7 @@
 
 body{
     width: 100%;
-    background-color: #DDBA47;
+    background-color: #195F8F;
   }
   
   nav{
@@ -46,7 +46,7 @@ body{
   
   /* Change the link color on hover */
   li a:hover {
-    background-color: #DDBA47;
+    background-color: #195F8F;
   }
   
   
@@ -67,14 +67,14 @@ body{
   }
 
   .head-box{
-    background-color:#DDBA47;
+    background-color:#195F8F;
     height:70px;
     display:flex;
     align-items: center;
   }
 
   .header-container{
-    background-color:#DDBA47;
+    background-color:#195F8F;
     position:fixed;
     left:0;
     width:100%;
@@ -86,10 +86,12 @@ body{
 
     .stuart-nicoll{
         font-family:'Cascadia';
+        color:white;
     }
 
     #header-small-text{
-        font-family:Arial, Helvetica, sans-serif
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
     }
     .logo{
     height: 20px;
@@ -103,104 +105,52 @@ body{
         height: 200px;
         width:100%;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        background-color: #DDBA47;
+        background-color: #195F8F;
       }
      
     .box1 {
         width:25%;
-        height: 200px;
-        background-color: #DDBA47;
+        height: 100px;
+        background-color: #195F8F;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         }
 
-    #bio-picture { 
+    #picture{ 
+        margin-left:10%; 
         width: 75px;
         height:75px;
         border-radius: 50%;
         }
 
-    #bio-text{
+    #audio-text{
             font-family: Arial, Helvetica, sans-serif;
         }
     
    
-     .box2 {
-        width:25%;
-        height: 200px;
-        background-color: #DDBA47;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        }
-        
-    #retro-picture { 
-            width: 75px;
-            height: 75px;
-            border-radius: 50%;
-            } 
-            
-    #retro-text{
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-        }
+     
 
-#second-container { 
+#text-container { 
             position: fixed;
-            left: 0;
-            bottom:200px;
+            left: 10%;
+            bottom:250px;
             height: 200px;
-            width:100%;
+            width:80%;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #DDBA47;
+            background-color: #195F8F;
+            color:white;
+            text-align: center;
+
+
              }
 
-    .box3 {
-        width:25%;
-        height: 200px;
-        background-color: #DDBA47;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        }
-
-    #audio-picture {
-            width: 75px;
-            height: 75px;
-            border-radius: 50%;
-        }
     
-    #audio-text {
-    font-family: Arial, Helvetica, sans-serif;
-    }
-            
-    .box4 {
-        width:25%;
-        height: 200px;
-        background-color: #DDBA47;
-        display: flex;               
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        }    
-        
-    #contact-picture {
-        width: 75px;
-        height: 75px;
-        border-radius: 50%;
-    }
-
-    #contact-text{
-        font-family: Arial, Helvetica, sans-serif;
-    }
        
     
   #button-container{
@@ -216,11 +166,10 @@ body{
     bottom:100px;
     justify-content: center;
     padding: 5px 40px;
-    background-color:#DDBA47;
-    border: 2px solid black;
+    background-color:#195F8F;
+    border: 2px solid white;
     Border-radius: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:black;
+    color:white;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -230,7 +179,7 @@ body{
     position: fixed;
     left: 0;
     bottom: 55px;
-    background-color: #DDBA47;
+    background-color: #195F8F;
     height: 30px;
     width: 100%;
     justify-content: center;
@@ -238,7 +187,7 @@ body{
     }
 
 .back-to-top-text{
-    color:black;
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     
