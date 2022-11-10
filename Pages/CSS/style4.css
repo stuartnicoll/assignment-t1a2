@@ -5,7 +5,7 @@
 
 body{
     width: 100%;
-    background-color: #195F8F;
+    background-color: #227988;
   }
   
   nav{
@@ -41,8 +41,8 @@ body{
     padding: 05px 10px;
     text-decoration: none;
     }
-
-/* Add a black right border to all list items, except the last item (last-child) */
+  
+  /* Add a black right border to all list items, except the last item (last-child) */
   li {
     border-right: 1px solid rgb(255, 255, 255);
   }
@@ -58,14 +58,14 @@ body{
   }
 
   .head-box{
-    background-color:#195F8F;
+    background-color:#227988;
     height:70px;
     display:flex;
     align-items: center;
   }
 
   .header-container{
-    background-color:#195F8F;
+    background-color:#227988;
     position:fixed;
     left:0;
     width:100%;
@@ -92,19 +92,21 @@ body{
 
 #main-container{
     position: fixed;
-    left: 10%;
-        height: 100px;
+    left: 0;
+        height: 150px;
         width:100%;
         display: flex;
         justify-content: left;
         align-items: center;
-        background-color: #195F8F;
+        background-color: #227988;
       }
      
     .box1 {
+        position: fixed;
+        left:10%;
         width:25%;
         height: 100px;
-        background-color: #195F8F;
+        background-color: #227988;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -120,26 +122,51 @@ body{
         }
 
     #text{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    
-   
+      position: fixed;
+      left: 40%;
+      font-family: Arial, Helvetica, sans-serif;
+      color:white;
+      justify-content: center;
+      align-items: center;
+      font-size:24pt;
+        
+       }
+  #web-credits-text{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: large;
+      color: white;
+}
      
 
-#text-container { 
+
+#text-container {
+            border: 2px solid white;
+            border-radius: 8px;
+            padding:4px; 
             position: fixed;
-            left: 10%;
-            bottom:220px;
-            height: 200px;
+            left:10%;
+            right:10%;
+            bottom:160px;
+            height: 280;
             width:80%;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #195F8F;
-            color:white;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
+            text-align:center;
+            background-color: #227988;
+            overflow: auto;
+            scroll-behavior: smooth;
         }
+  
+  #internal-text{
+      height: 100%;
+      color:white;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:small;
+    
+      
+  }
 
     
        
@@ -150,7 +177,6 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
 
 }
 #blog-post-button{
@@ -158,7 +184,7 @@ body{
     bottom:100px;
     justify-content: center;
     padding: 5px 40px;
-    background-color:#195F8F;
+    background-color:#227988;
     border: 2px solid white;
     Border-radius: 4px;
     color:white;
@@ -166,25 +192,25 @@ body{
     justify-content: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    }
+   }
+
+   a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
 
 .back-to-top-container{
     position: fixed;
     left: 0;
     bottom: 55px;
-    background-color: #195F8F;
+    background-color: #227988;
     height: 30px;
     width: 100%;
     justify-content: center;
     text-align: center;
-    }
-
-    a:link {
-      text-decoration: none;
-    }
-    
-    a:visited {
-      text-decoration: none;
     }
 
 .back-to-top-text{
@@ -215,19 +241,8 @@ body{
 @media only screen and (min-width: 600px) {
   /* Change the link color on hover */
   li a:hover {
-    background-color: #195F8F;
+    background-color: #227988;
   }
-
-  #main-container{
-    position: fixed;
-    left: 10%;
-        height: 100px;
-        width:100%;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        background-color: #195F8F;
-      }
 
   #picture { 
     margin-left:10%; 
@@ -236,18 +251,3 @@ body{
     border-radius: 50%;
     border: 2px solid white;
     }
-
-    #text-container { 
-      position: fixed;
-      left: 10%;
-      top: 250px;
-      height: 200px;
-      width:80%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #195F8F;
-      color:white;
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-  }
